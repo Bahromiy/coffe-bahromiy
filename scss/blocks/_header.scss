@@ -26,11 +26,19 @@
   color: #333D4B;
 }
 
+.site-header__burger {
+  display: none;
+}
+
 // RESPONSIVE
 @media screen and (max-width: $tablet) {
   .site-header__logo-img{
     width: 235px;
     height: 25px;
+  } 
+
+  .site-header__burger {
+    display: none;
   }
 }
 
@@ -69,6 +77,7 @@
   }
 
   .site-header__burger{
+    margin-left: auto;
     cursor: pointer;
     min-height: 15px;
     width: 20px;

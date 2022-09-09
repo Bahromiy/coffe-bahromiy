@@ -1,0 +1,97 @@
+.quality {
+    height: 474px;
+    border-radius: $big-radius;
+    background-color: $darker;
+    padding: 168px 655px 176px 85px;
+    position: relative;
+    margin-top: 120px;
+
+
+}
+
+.quality__text-wrapper {
+    width: 540px;
+    height: 210px;
+}
+
+.quality__text-wrapper::after {
+    background-image: url(../../img/Bitmap.jpg);
+    content: '';
+    display: block;
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    border-radius: $mid-radius;
+    left: 57%;
+    top: -20%;
+}
+
+.quality__title {
+    font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        
+    
+    
+        color: #FEFCF7;
+}
+
+.quality__des {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        color: #FEFCF7;
+        
+}
+
+@media only screen and (max-width: $mobile) {
+    .quality {
+            height: 448px;
+            border-radius: $big-radius;
+            background-color: $darker;
+            padding: 224px 74px 67px 24px;
+            position: relative;
+            margin-top: 330px;
+    
+    
+        }
+    
+        .quality__text-wrapper {
+            width: 540px;
+            height: 210px;
+        }
+    
+        .quality__text-wrapper::after {
+            background-image: url(../../img/Bitmap.jpg);
+            content: '';
+            display: block;
+            width: 445px;
+            height: 474px;
+            position: absolute;
+            border-radius: $mid-radius;
+            left: 57%;
+            top: -20%;
+        }
+    
+        .quality__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+    
+    
+    
+            color: #FEFCF7;
+        }
+    
+        .quality__des {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            color: #FEFCF7;
+    
+        }
+}
