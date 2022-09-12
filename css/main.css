@@ -1,3 +1,4 @@
+@mix;
 *,
 *::before,
 *::after {
@@ -1860,5 +1861,117 @@ template {
     font-size: 16px;
     line-height: 26px;
     color: #333D4B;
+  }
+}
+.plan-intro {
+  background-image: url(../../img/plan-int.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 450px;
+  padding: 134px 750px 134px 85px;
+}
+
+.plan-intro__wrapper {
+  width: 445px;
+  height: 182px;
+}
+
+.plan-intro__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin: 0;
+}
+
+.plan-intro__des {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  margin-top: 32px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .plan-intro {
+    background-image: url(../../img/plan-int.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 127px 233px 126px 58px;
+  }
+  .plan-intro__wrapper {
+    width: 445px;
+    height: 182px;
+  }
+  .plan-intro__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin: 0;
+  }
+  .plan-intro__des {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 25px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-top: 32px;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .plan-intro {
+    background-image: url(../../img/plan-int.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding: 101px 24px 136px 24px;
+  }
+  .plan-intro__wrapper {
+    width: 279px;
+    height: 163px;
+    text-align: center;
+  }
+  .plan-intro__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FEFCF7;
+    margin: 0;
+  }
+  .plan-intro__des {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 25px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-top: 32px;
   }
 }/*# sourceMappingURL=main.css.map */
