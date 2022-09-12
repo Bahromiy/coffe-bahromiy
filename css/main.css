@@ -1680,6 +1680,7 @@ template {
   line-height: 32px;
   color: #83888F;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .quarters__list {
@@ -1691,14 +1692,13 @@ template {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  vertical-align: middle;
 }
 
 .quarters__list-item {
+  width: 300px;
   margin-bottom: 88px;
   align-items: center;
   vertical-align: middle;
-  text-align: center;
 }
 
 .map__gb {
@@ -1822,12 +1822,14 @@ template {
     justify-content: space-around;
     align-items: center;
     vertical-align: middle;
+    margin-top: 80px;
+    padding: 0;
   }
   .quarters__list-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 88px;
-    align-items: center;
-    vertical-align: middle;
-    text-align: center;
   }
   .map__gb {
     width: 40px;
