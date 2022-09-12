@@ -1,0 +1,230 @@
+.quarters {
+ margin-top: 168px;
+ margin-bottom: 168px;
+}
+
+.quarters__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px
+}
+
+.quarters__list {
+    @include reset-list;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align:  middle;
+}
+
+.quarters__list-item {
+     
+    margin-bottom: 88px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.map__gb {
+    width: 40px;
+    height: 50px;
+    display: block;
+   
+}
+
+.map__can {
+    width: 52px;
+    height: 45px;
+    display: block;
+    // align-items: center;
+    
+    
+}
+
+.map__aus {
+    width: 49px;
+    height: 44px;
+    display: block;
+}
+
+.quarters__item-title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    
+}
+
+.quarters__item-des {
+    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+@media only screen and (max-width: $tablet) {
+
+
+.quarters {
+    margin-top: 168px;
+    margin-bottom: 168px;
+}
+
+.quarters__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px
+}
+
+.quarters__list {
+    @include reset-list;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.quarters__list-item {
+    
+    margin-bottom: 88px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.map__gb {
+    width: 40px;
+    height: 50px;
+    display: block;
+
+}
+
+.map__can {
+    width: 52px;
+    height: 45px;
+    display: block;
+    // align-items: center;
+
+
+}
+
+.map__aus {
+    width: 49px;
+    height: 44px;
+    display: block;
+}
+
+.quarters__item-title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.quarters__item-des {
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+}
+
+@media only screen and (max-width:$mobile) {
+    .quarters {
+            margin-top: 168px;
+            margin-bottom: 168px;
+        }
+    
+        .quarters__title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin-bottom: 72px
+        }
+    
+        .quarters__list {
+            @include reset-list;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            vertical-align: middle;
+            
+            
+        }
+    
+        .quarters__list-item {
+            
+            margin-bottom: 88px;
+            align-items: center;
+            vertical-align: middle;
+            text-align: center;
+            
+        }
+    
+        .map__gb {
+            width: 40px;
+            height: 50px;
+            display: block;
+    
+        }
+    
+        .map__can {
+            width: 52px;
+            height: 45px;
+            display: block;
+    
+    
+        }
+    
+        .map__aus {
+            width: 49px;
+            height: 44px;
+            display: block;
+        }
+    
+        .quarters__item-title {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 36px;
+    
+        }
+    
+        .quarters__item-des {
+    
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+        }
+}

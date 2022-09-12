@@ -42,56 +42,168 @@
         font-family: 'Barlow';
         font-style: normal;
         font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
         color: #FEFCF7;
         
 }
 
+.quality {
+    height: 474px;
+    border-radius: $big-radius;
+    background-color: $darker;
+    padding: 168px 655px 176px 85px;
+    position: relative;
+    margin-top: 120px;
+
+
+}
+
+.quality__text-wrapper {
+    width: 540px;
+    height: 210px;
+}
+
+.quality__text-wrapper::after {
+    background-image: url(../../img/Bitmap.jpg);
+    content: '';
+    display: block;
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    border-radius: $mid-radius;
+    left: 57%;
+    top: -20%;
+}
+
+.quality__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+
+
+
+    color: #FEFCF7;
+}
+
+.quality__des {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FEFCF7;
+
+}
+
+@media only screen and (max-width: $tablet) {
+    .quality {
+        height: 488px;
+        border-radius: $big-radius;
+        background-color: $darker;
+        padding: 224px 74px 67px 74px;
+        position: relative;
+        margin-top: 330px;
+
+
+    }
+
+    .quality__text-wrapper {
+        width: 540px;
+        height: 197px;
+    }
+
+    .quality__text-wrapper::after {
+        background-image: url(../../img/Bitmap.jpg);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: '';
+        display: block;
+        width: 573px;
+        height: 320px;
+        position: absolute;
+        border-radius: $mid-radius;
+        left: 10%;
+        top: -30%;
+    }
+
+    .quality__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+
+
+
+        color: #FEFCF7;
+    }
+
+    .quality__des {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+
+    }
+}
+
 @media only screen and (max-width: $mobile) {
     .quality {
-            height: 448px;
-            border-radius: $big-radius;
-            background-color: $darker;
-            padding: 224px 74px 67px 24px;
-            position: relative;
-            margin-top: 330px;
-    
-    
-        }
-    
-        .quality__text-wrapper {
-            width: 540px;
-            height: 210px;
-        }
-    
-        .quality__text-wrapper::after {
-            background-image: url(../../img/Bitmap.jpg);
-            content: '';
-            display: block;
-            width: 445px;
-            height: 474px;
-            position: absolute;
-            border-radius: $mid-radius;
-            left: 57%;
-            top: -20%;
-        }
-    
-        .quality__title {
-            font-family: 'Fraunces';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 40px;
-            line-height: 40px;
-    
-    
-    
-            color: #FEFCF7;
-        }
-    
-        .quality__des {
-            font-family: 'Barlow';
-            font-style: normal;
-            font-weight: 400;
-            color: #FEFCF7;
-    
-        }
+        height: 509px;
+        border-radius: $big-radius;
+        background-color: $darker;
+        padding: 142px 24px 61px 24px;
+        position: relative;
+        margin-top: 330px;
+
+
+    }
+
+    .quality__text-wrapper {
+        width: 279px;
+        height: 306px;
+    }
+
+    .quality__text-wrapper::after {
+        background-image: url(../../img/Bitmap.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        content: '';
+        display: block;
+        width: 279px;
+        height: 156px;
+        position: absolute;
+        border-radius: $mid-radius;
+        left: 7%;
+        top: -15%;
+    }
+
+    .quality__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+
+
+
+        color: #FEFCF7;
+    }
+
+    .quality__des {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;
+
+    }
 }

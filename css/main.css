@@ -1530,45 +1530,333 @@ template {
   font-family: "Barlow";
   font-style: normal;
   font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
   color: #FEFCF7;
 }
 
-@media only screen and (max-width: 786px) {
+.quality {
+  height: 474px;
+  border-radius: 10px;
+  background-color: #333D4B;
+  padding: 168px 655px 176px 85px;
+  position: relative;
+  margin-top: 120px;
+}
+
+.quality__text-wrapper {
+  width: 540px;
+  height: 210px;
+}
+
+.quality__text-wrapper::after {
+  background-image: url(../../img/Bitmap.jpg);
+  content: "";
+  display: block;
+  width: 445px;
+  height: 474px;
+  position: absolute;
+  border-radius: 8px;
+  left: 57%;
+  top: -20%;
+}
+
+.quality__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FEFCF7;
+}
+
+.quality__des {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 1200px) {
   .quality {
-    height: 448px;
+    height: 488px;
     border-radius: 10px;
     background-color: #333D4B;
-    padding: 224px 74px 67px 24px;
+    padding: 224px 74px 67px 74px;
     position: relative;
     margin-top: 330px;
   }
   .quality__text-wrapper {
     width: 540px;
-    height: 210px;
+    height: 197px;
   }
   .quality__text-wrapper::after {
     background-image: url(../../img/Bitmap.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
     content: "";
     display: block;
-    width: 445px;
-    height: 474px;
+    width: 573px;
+    height: 320px;
     position: absolute;
     border-radius: 8px;
-    left: 57%;
-    top: -20%;
+    left: 10%;
+    top: -30%;
   }
   .quality__title {
     font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
     color: #FEFCF7;
   }
   .quality__des {
     font-family: "Barlow";
     font-style: normal;
     font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
     color: #FEFCF7;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .quality {
+    height: 509px;
+    border-radius: 10px;
+    background-color: #333D4B;
+    padding: 142px 24px 61px 24px;
+    position: relative;
+    margin-top: 330px;
+  }
+  .quality__text-wrapper {
+    width: 279px;
+    height: 306px;
+  }
+  .quality__text-wrapper::after {
+    background-image: url(../../img/Bitmap.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    width: 279px;
+    height: 156px;
+    position: absolute;
+    border-radius: 8px;
+    left: 7%;
+    top: -15%;
+  }
+  .quality__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FEFCF7;
+  }
+  .quality__des {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FEFCF7;
+  }
+}
+.quarters {
+  margin-top: 168px;
+  margin-bottom: 168px;
+}
+
+.quarters__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 72px;
+}
+
+.quarters__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.quarters__list-item {
+  margin-bottom: 88px;
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.map__gb {
+  width: 40px;
+  height: 50px;
+  display: block;
+}
+
+.map__can {
+  width: 52px;
+  height: 45px;
+  display: block;
+}
+
+.map__aus {
+  width: 49px;
+  height: 44px;
+  display: block;
+}
+
+.quarters__item-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.quarters__item-des {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+@media only screen and (max-width: 1200px) {
+  .quarters {
+    margin-top: 168px;
+    margin-bottom: 168px;
+  }
+  .quarters__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .quarters__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .quarters__list-item {
+    margin-bottom: 88px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: left;
+  }
+  .map__gb {
+    width: 40px;
+    height: 50px;
+    display: block;
+  }
+  .map__can {
+    width: 52px;
+    height: 45px;
+    display: block;
+  }
+  .map__aus {
+    width: 49px;
+    height: 44px;
+    display: block;
+  }
+  .quarters__item-title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .quarters__item-des {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .quarters {
+    margin-top: 168px;
+    margin-bottom: 168px;
+  }
+  .quarters__title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+  }
+  .quarters__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .quarters__list-item {
+    margin-bottom: 88px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .map__gb {
+    width: 40px;
+    height: 50px;
+    display: block;
+  }
+  .map__can {
+    width: 52px;
+    height: 45px;
+    display: block;
+  }
+  .map__aus {
+    width: 49px;
+    height: 44px;
+    display: block;
+  }
+  .quarters__item-title {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .quarters__item-des {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
   }
 }/*# sourceMappingURL=main.css.map */
