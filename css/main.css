@@ -1296,10 +1296,10 @@ template {
 }
 
 .commitment__title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 48px;
 }
 
@@ -1334,7 +1334,7 @@ template {
     height: 453px;
   }
   .commitment__title {
-    font-family: "Fraunces 9pt";
+    font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -1372,7 +1372,7 @@ template {
     height: 453px;
   }
   .commitment__title {
-    font-family: "Fraunces 9pt";
+    font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
